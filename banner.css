@@ -9,7 +9,34 @@ body {
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Header Banner Part */
+.top-text {
+  display: flex;
+  width: 1440px;
+  justify-content: space-around;
+  margin: auto;
+  gap: 770px;
+  align-items: center;
+}
+.top-text > h3 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.top-text > button {
+  width: 245px;
+  height: 60px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
 header {
   background-image: url(icon/Hero-bg.png);
   max-width: 1440px;
@@ -51,7 +78,10 @@ header {
   background-color: rgba(13, 19, 33, 1);
   font-size: 20px;
   font-weight: 600;
+}
+.btn > a {
   color: #ffffff;
+  text-decoration: none;
 }
 /* <!-- Why Web Development Part --> */
 
@@ -63,22 +93,47 @@ header {
   background-color: rgba(13, 19, 33, 0.02);
   padding: 80px 100px 80px 100px;
 }
-.child-1 {
+.web-text-1 {
   width: 100%;
   /* height: 110px; */
   margin: auto;
-  border: 2px solid red;
 }
-.child-1 > h2 {
+.web-text-1 > h2 {
   text-align: center;
   font-size: 32px;
   font-weight: 800;
 }
-.child-1 > p {
+.web-text-1 > p {
   margin-top: 24px;
   text-align: center;
 }
-
+/* web development Content part */
+.web-text-2 {
+  width: 945px;
+  height: 335px;
+  margin-top: 48px;
+  padding: 48px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+.web-content-box {
+  display: flex;
+  justify-content: space-around;
+}
+.web-content-box > div {
+  width: 480px;
+}
+.web-content-box > div > p {
+  margin-top: 16px;
+  margin-bottom: 35px;
+}
+.web-content-box > div > button {
+  width: 170px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
 /* My Inspiration */
 .container-2 {
   max-width: 1140px;
@@ -226,6 +281,28 @@ header {
 }
 .footer-text > p {
   font-size: 16px;
+}
+.text-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 24px;
+}
+.text-input > div > input {
+  width: 550px;
+  height: 60px;
+  border: none;
+  padding: 20px;
+  border-radius: 8px;
+}
+.text-input > div > button {
+  width: 120px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
 }
 /* footer end */
 
