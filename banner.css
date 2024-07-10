@@ -111,13 +111,12 @@ header {
   border-radius: 16px;
 }
 
-/* my next terget */
+/* My Current terget */
 .container-3 {
   max-width: 1140px;
   height: 1437px;
   margin: auto;
   margin-top: 150px;
-  border: 1px solid red;
 }
 .target-text-description {
   width: 850px;
@@ -143,7 +142,7 @@ header {
   background-color: rgba(255, 76, 30, 0.05);
   border-radius: 18px;
 }
-.terget-item-description {
+.target-item-description {
   display: flex;
   gap: 24px;
 }
@@ -162,4 +161,40 @@ header {
 }
 .js-bg {
   background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* My Next terget */
+.next-target {
+  margin-top: 110px;
+}
+.next-item-container {
+  padding: 40px;
+  border: 2px solid rgba(13, 19, 33, 0.2);
+  border-radius: 18px;
+  margin-top: 48px;
+}
+.next-text-description > h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.next-text-description > p {
+  margin: 24px;
+  text-align: center;
+}
+
+.next-item-parent {
+  display: flex;
+  gap: 24px;
+}
+.next-item-mg {
+  height: 110px;
+  gap: 24px;
+}
+.next-item-mg > p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.next-item-mg > a {
+  color: black;
 }
