@@ -41,6 +41,7 @@ header {
 .para-1 {
   text-align: center;
   margin-bottom: 32px;
+  text-align: center;
 }
 .btn {
   margin-top: 35px;
@@ -54,7 +55,7 @@ header {
 }
 /* <!-- Why Web Development Part --> */
 
-.drum-1 {
+.container-1 {
   max-width: 1140px;
   height: 1400px;
   margin: auto;
@@ -63,12 +64,102 @@ header {
   padding: 80px 100px 80px 100px;
 }
 .child-1 {
-  width: 850px;
-  height: 110px;
+  width: 100%;
+  /* height: 110px; */
   margin: auto;
+  border: 2px solid red;
 }
 .child-1 > h2 {
   text-align: center;
   font-size: 32px;
   font-weight: 800;
+}
+.child-1 > p {
+  margin-top: 24px;
+  text-align: center;
+}
+
+/* My Inspiration */
+.container-2 {
+  max-width: 1140px;
+  height: 775px;
+  margin: auto;
+  margin-top: 90px;
+}
+.my-child-1 {
+  width: 850px;
+  margin: auto;
+}
+.my-child-1 > h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.my-child-1 > p {
+  margin: 24px;
+  text-align: center;
+}
+
+.my-child-2 {
+  height: 615px;
+  padding: 32px;
+  margin-top: 48px;
+  border: 2px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.my-child-2 > iframe {
+  border-radius: 16px;
+}
+
+/* my next terget */
+.container-3 {
+  max-width: 1140px;
+  height: 1437px;
+  margin: auto;
+  margin-top: 150px;
+  border: 1px solid red;
+}
+.target-text-description {
+  width: 850px;
+  height: 110px;
+  margin: auto;
+}
+.target-text-description > h2 {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.target-text-description > p {
+  margin: 24px;
+  text-align: center;
+}
+
+/* HTML CSS JS ITEM PART */
+.item-body {
+  width: 365px;
+  height: 300px;
+  margin-top: 48px;
+  padding: 40px;
+  background-color: rgba(255, 76, 30, 0.05);
+  border-radius: 18px;
+}
+.terget-item-description {
+  display: flex;
+  gap: 24px;
+}
+.item-1 > h3 {
+  margin-top: 24px;
+}
+.item-1 > p {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.item-1 > a {
+  color: black;
+}
+.cs-bg {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.js-bg {
+  background-color: rgba(255, 223, 0, 0.05);
 }
