@@ -198,3 +198,45 @@ header {
 .next-item-mg > a {
   color: black;
 }
+
+/* }Footer Part/ */
+
+.footer-bg {
+  background-image: url(icon/handshake.jpg);
+  width: 1140px;
+  height: 315px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 64px 48px;
+}
+
+.footer-text {
+  width: 700px;
+  height: 105px;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+}
+.footer-text > h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.footer-text > p {
+  font-size: 16px;
+}
+/* footer end */
+
+.footer-end {
+  width: 1440px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  background-color: rgba(13, 19, 33, 0.03);
+  align-items: center;
+  border-radius: 16px;
+}
